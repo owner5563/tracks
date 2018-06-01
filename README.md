@@ -2,7 +2,7 @@
 
 #### _{jQuery, HTML, CSS, JavaScript, branching, button input, and logic coding exercise by Epicodus}, {May 31, 2018}_
 
-#### By _**{Kyle Parsons & Annie Shin}**_
+#### By _**{Kyle Parsons}**_
 
 ## Description
 
