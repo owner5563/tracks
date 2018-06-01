@@ -1,12 +1,13 @@
 $(document).ready(function() {
-  $("form#insurance").submit(function(event) {
+  $("#submit").click(function(event) {
+    event.preventDefault();
     var system = parseInt($("#system").val());
-    var Work = parseInt($("#work").val());
+    var work = parseInt($("#work").val());
     var project = parseInt($("#project").val());
 
-    $("#rate").text(quote);
-    $("#quote").show()
+    var result = system + work + project;
+    $("#submit").text(result);
 
-    event.preventDefault();
+
   });
 });
