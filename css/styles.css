@@ -24,6 +24,10 @@ button {
 
 }
 
+.btn {
+  display: block;
+}
+
 #c {
   display: none;
 }

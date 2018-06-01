@@ -6,8 +6,18 @@ $(document).ready(function() {
     var project = parseInt($("#project").val());
 
     var result = system + work + project;
-    $("#submit").text(result);
+      if (result <= 6) {
+        $('#c').show();
+}        else if (result <=9) {
+          $('#php').show();
+}           else {
+          $('#project').show();
+}
+
+
+
+
+
 
 
   });
-});
