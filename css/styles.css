@@ -1,0 +1,14 @@
+.col-md-1 {
+  border: 5px solid black;
+  padding: 14px;
+  background-color:#a1c3e2 ;
+  height: 160px;
+  text-align: center;
+  font-size: 14pt;
+  font-weight: 250;
+  font-family: sans-serif;
+}
+
+.container {
+width: 50%;
+}
