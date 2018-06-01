@@ -10,5 +10,17 @@
 }
 
 .container {
-width: 50%;
+  width: 50%;
+}
+
+body {
+  background-color: orange;
+}
+
+button {
+   text-align: center;
+   font-size: 14pt;
+   font-style: italic;
+
+
 }
