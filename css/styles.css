@@ -22,5 +22,16 @@ button {
    font-size: 14pt;
    font-style: italic;
 
+}
 
+#c {
+  display: none;
+}
+
+#php {
+  display: none;
+}
+
+#ruby {
+  display: none;
 }
