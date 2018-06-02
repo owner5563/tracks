@@ -1,15 +1,14 @@
 $(document).ready(function() {
-  $("#submit").click(function(event) {
-    event.preventDefault();
+  $("#submit").click(function() {
     var system = parseInt($("#system").val());
-      if (system = 1) {
-        $('#c').show();
-      } else if (system = 2) {
-        $('#php').show();
+      if (system === 1) {
+        $('#c').show() ;
+      }else if (system === 2) {
+        $('#php').show() ;
       }else {
-        $('#ruby').show();
+        $('#ruby').show() ;
       }
-
+event.preventDefault();
 
 
 
