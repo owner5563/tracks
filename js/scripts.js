@@ -1,14 +1,20 @@
 $(document).ready(function() {
   $("#submit").click(function() {
-    var system = parseInt($("#system").val());
-      if (system === 1) {
-        $('#c').show() ;
-      }else if (system === 2) {
-        $('#php').show() ;
-      }else {
-        $('#ruby').show() ;
-      }
-event.preventDefault();
+    event.preventDefault();
+
+    var system = $("#system").val();
+    var work = $("work").val();
+    var project = $("project").val();
+    var result = system + work + project;
+    if (result <= 3 ) {
+      alert("Take a C# course")
+    }else if (result > 4 && result < 6) {
+      alert("take a php course")
+    } else {
+      alert("take a ruby course")
+    }
+
+
 
 
 
