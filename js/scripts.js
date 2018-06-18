@@ -3,15 +3,15 @@ $(document).ready(function() {
     event.preventDefault();
 
     var system = $("#system").val();
-    var work = $("work").val();
-    var project = $("project").val();
-    var result = system + work + project;
-    if (result <= 3 ) {
-      alert("Take a C# course")
-    }else if (result > 4 && result < 6) {
-      alert("take a php course")
+    var work = $("#work").val();
+    var project = $("#project").val();
+    var result = (+system) + (+work) + (+project);
+    if (result <"5" ) {
+      alert("take a track with C#")
+    } else if (result >= "8") {
+      alert("take a track with ruby")
     } else {
-      alert("take a ruby course")
+      alert("take a track with php")
     }
 
 
