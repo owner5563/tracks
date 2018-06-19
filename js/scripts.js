@@ -7,11 +7,17 @@ $(document).ready(function() {
     var project = $("#project").val();
     var result = (+system) + (+work) + (+project);
     if (result <"5" ) {
-      alert("take a track with C#")
+      $("#c").show()
+      $("#php").hide()
+      $("#ruby").hide()
     } else if (result >= "8") {
-      alert("take a track with ruby")
+      $("#c").hide()
+      $("#php").hide()
+      $("#ruby").show()
     } else {
-      alert("take a track with php")
+      $("#c").hide()
+      $("#php").show()
+      $("#ruby").hide()
     }
 
 
